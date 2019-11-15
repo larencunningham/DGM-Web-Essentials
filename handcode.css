@@ -1,0 +1,185 @@
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    font-family: 'Questrial', sans-serif;
+    color: #3d4145;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+header {
+    background-color: #979aa1;
+    padding-bottom: 1px;
+}
+
+header h1 {
+    margin-left: 2%;
+    font-size: 2.25rem;
+    letter-spacing: 5px;
+}
+
+header h2 {
+    padding-left: 2%;
+    font-size: 1.25rem;
+}
+
+/* --- Nav --- */
+nav {
+    background-color: #5d7e94;
+    border: solid 1px #000;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul.menu li {
+    float: left;
+}
+
+nav ul.menu li a {
+    display: block;
+    padding: .75rem 1.5em;
+    color: #fff;
+    text-decoration: none;
+    border-right: solid 1px #3d4145
+}
+
+nav ul.menu li a:hover {
+    background-color: #3d4145
+}
+
+nav ul.menu li.active a {
+    background-color: #3d4145
+}
+
+li {
+    font-size: 20px;
+}
+
+/* --- Main ---*/
+
+main {
+    padding: .5rem 2%;
+    background-color: #fff;
+    
+}
+
+main h1 {
+    font-size: 40px;
+    color: rgb(40, 90, 47);
+    letter-spacing: 3px;
+    border-bottom: 2px solid darkgray
+}
+
+main h2 {
+    font-size: 20px;
+    color: #5d7e94;
+    letter-spacing: 1px;
+}
+
+main p {
+    line-height: 150%;
+}
+
+main ul.check, main ol.bulb {
+    margin: 0 0 .8rem 0;
+    padding: 0 0 0 1rem;
+}
+
+main ul.check {
+    list-style-type: circle;
+}
+
+main ol.bulb {
+    list-style-type: square;
+}
+
+main blockquote {
+    font-style: italic;
+    color: rgb(40, 90, 47);
+    font-size: .9rem;
+}
+
+main a {
+    color: #5d7e94;
+}
+
+main a:hover {
+    color: rgb(40, 90, 47) 
+}
+
+main dl dt {
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+main dl dd {
+    margin: 0;
+    padding: 0 0 .75rem 2rem;
+}
+
+/* --- images ---*/
+
+figure.rightside {
+    float: right;
+    width: 25%;
+    border: solid 1px #4c8e73;
+    text-align: center;
+    font-size: .7rem
+}
+
+figure.influence span {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: rgb(40, 90, 47);
+}
+
+div.speakerGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure.influence {
+    float: left;
+    width: 275px;
+    margin-bottom: 20px;
+    border: 1px solid #4c6c73;
+    text-align: center;
+}
+
+img {
+    width: 275px;
+    height: 300px;
+}
+
+figure.rightside figcaption {
+    font-size: .7rem;
+}
+
+/*-- Footer --*/
+footer {
+    background-color: #979aa1;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*--- Other ---*/
+div.keepOpen {
+    clear: both; 
+}
+
+ul > li {
+    font-size: 15px;
+}
+
+ol > li {
+    font-size: 15px;
+}
+
