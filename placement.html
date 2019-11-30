@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link href="handcode.css" rel="stylesheet">
+    <title>Dance Education</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dance Education</h1>
+        <h2>A place where professionals and newbies can learn something new</h2>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="info.html">Dance Basics</a></li>
+            <li><a href="images.html">Influencers</a></li>
+            <li class="active"><a href="placement.html">Placement</a></li>
+        </ul>
+        <div class="keepOpen"></div>
+    </nav>
+
+    <main>
+        <h1>Dance Classes</h1>
+
+        <form action="thanks.html" method="post" enctype="multipart/form-data" name="quiz" class="genres">
+            
+            <fieldset>
+                <legend>Dance Classes for you</legend>
+                <label>
+                    <span>Level: <input type="text" name="level" placeholder="Beginner/Experienced" class="userinfo"></span>
+                </label>
+                <label>
+                    <span>Genre: <input type="text" name="genre" placeholder="Genre" class="userinfo"></span>
+                </label>
+                <label>
+                    <span>Email: <input type="email" name="email" placeholder="email@gmail.com" required class="userinfo"></span>
+                </label>
+                <label>
+                    <span>Phone: <input type="phone" name="phone" placeholder="123-555-6789" required pattern="[0-9-. }{10,14}" class="userinfo"></span>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Looking for a Teaching Job</legend>
+                <label>
+                    <span>Genre: <input type="text" name="type" placeholder="Genre" class="userinfo"></span>
+                </label>
+                <label>
+                    <span>Ages: <input type="text" name="age" placeholder="Age" class="userinfo"></span>
+                </label>
+                <label>
+                    <span>Location: <input type="text" name="place" placeholder="State and City" required class="userinfo"></span>
+                </label>
+                <label>
+                    <span>Phone: <input type="phone" name="phone" placeholder="123-555-6789" pattern="[0-9-. }{10,14}" class="userinfo"></span>
+                </label>
+            </fieldset>
+
+        <fieldset>
+                <legend>More About You</legend>
+            <span>Do You Want to Compete</span>
+                <label><input type="radio" name="comp" value="Yes">Yes</label><br>
+                <label><input type="radio" name="comp" value="No">No</label>
+
+            <span>Which Genre Do You Like</span>
+                <label><input type="checkbox" name="Genres" value="Ballet">Ballet</label><br>
+                <label><input type="checkbox" name="Genres" value="Ballroom">Ballroom</label><br>
+                <label><input type="checkbox" name="Genres" value="Jazz">Jazz</label><br>
+                <label><input type="checkbox" name="Genres" value="Modern">Modern</label><br>
+                <label><input type="checkbox" name="Genres" value="Tap">Tap</label>
+
+                <label><span>Prefered Footwear</span>
+                <select name="feet" class="userinfo">
+                    <option>Shoes</option>
+                    <option>Socks</option>
+                    <option>None</option>
+                </select>
+            </label>
+         </fieldset>
+
+<input type="submit" anem="submit" value="Submit" class="userbutton">
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Septmeber 2019 &bull; Laren Cunningham
+    </footer>
+</body>
+
+</html>
